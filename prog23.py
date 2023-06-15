@@ -35,3 +35,12 @@ def product(x,y):
     return x*y
 print(product(10,11))
 
+# recursion 
+def tri_recursion(n):
+    if (n>0):
+        result=n+tri_recursion(n-1)
+        print(result)
+    else:
+        result=0
+    return result
+tri_recursion(6)
